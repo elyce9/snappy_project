@@ -3,3 +3,4 @@
 # Elyce Burce
 
 print("Hello World!");
+print("Hello from GitHub :)");
