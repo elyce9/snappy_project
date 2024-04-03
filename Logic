@@ -1,0 +1,48 @@
+#include <iostream>
+
+class ObstacleAvoidance {
+public:
+    void moveLeft() {
+        // Code to move the robot left
+        std::cout << "Moving left" << std::endl;
+    }
+
+    void moveRight() {
+        // Code to move the robot right
+        std::cout << "Moving right" << std::endl;
+    }
+
+    void moveUp() {
+        // Code to move the robot up
+        std::cout << "Moving up" << std::endl;
+    }
+
+    void moveDown() {
+        // Code to move the robot down
+        std::cout << "Moving down" << std::endl;
+    }
+
+    void readUltrasonicSensor() {
+        // Code to read data from the ultrasonic sensor
+        // Use this data to control the robot's movements
+        std::cout << "Reading data from ultrasonic sensor" << std::endl;
+    }
+
+    // void readUltrasonicSensor() {
+    //     // Code to read data from the ultrasonic sensor
+    //     // Use this data to control the robot's movements
+    // }
+};
+
+int main() {
+    ObstacleAvoidance robot;
+
+    robot.moveLeft();
+    robot.moveRight();
+    robot.moveUp();
+    robot.moveDown();
+
+    // robot.readUltrasonicSensor();
+
+    return 0;
+}
